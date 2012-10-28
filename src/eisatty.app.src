@@ -1,0 +1,11 @@
+{application, eisatty,
+ [
+  {description, "isatty NIF"},
+  {vsn, "1.0"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
