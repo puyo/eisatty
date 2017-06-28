@@ -2,3 +2,6 @@ ebin
 erl_crash.dump
 priv
 c_src/*.o
+.rebar3
+_build
+rebar.lock

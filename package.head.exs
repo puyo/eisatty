@@ -1,6 +1,5 @@
-Expm.Package.new(name: "eisatty", description: "isatty(STDOUT) for Erlang",
-                 version: :head, keywords: ["terminal","ansi","tty"], 
-                 maintainers: [[name: "Yurii Rashkovskii", 
-                                email: "yrashk@gmail.com"]],
-                 repositories: [[github: "yrashk/eisatty"]])
-    
+Expm.Package.new(name: "eisatty", description: "isatty(3) for Erlang",
+                 version: :head, keywords: ["terminal","ansi","tty"],
+                 maintainers: [[name: "Gregory McIntyre",
+                                email: "greg@gregorymcintyre.com"]],
+                 repositories: [[github: "puyo/eisatty"]])
